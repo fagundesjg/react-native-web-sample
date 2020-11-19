@@ -1,9 +1,9 @@
 import React from 'react';
-import {AppRegistry, Platform} from 'react-native';
-import {Navigation} from './navigation';
+import { AppRegistry, Platform } from 'react-native';
+import { Routes } from './routes';
 
 export function App() {
-  return <Navigation />;
+  return <Routes />;
 }
 
 AppRegistry.registerComponent('example', () => App);
